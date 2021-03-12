@@ -20,6 +20,7 @@ namespace H1WebPage
         {
             Debug.WriteLine("test");
             userManager.InsertUser(new User(fName.Value, lName.Value, password.Value, hobby.Value), username.Value, password.Value);
+            Response.Redirect("Default.aspx");
         }
     }
 }
