@@ -1,0 +1,33 @@
+﻿body {
+    background-image: url('movie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.movies #grid {
+    position: relative;
+    width: 50%;
+    color: aqua;
+    top: 0px;
+    left: 25%;
+}
+
+.inputs #titleInput, #descInput, #yearInput, #genreInput {
+    position: relative;
+    opacity: 0.8;
+    width: 10%;
+    left: 30%;
+    top: 0px;
+    margin: 1%;
+    
+}
+
+.jumbotron {
+    opacity: 0.2;
+    top: 5%;
+}
+
+#addBtn {
+    position: relative;
+    left: -25%;
+}
